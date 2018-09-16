@@ -11,6 +11,7 @@
     <modules>
         <module>es_java_api</module>
         <module>es_java_api2</module>
+        <module>es_java_rest</module>
     </modules>
 
     <!--SpringBoot的基本父级依赖-->
