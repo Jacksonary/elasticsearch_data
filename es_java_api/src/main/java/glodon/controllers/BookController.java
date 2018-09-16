@@ -1,6 +1,6 @@
-package com.glodon.controllers;
+package glodon.controllers;
 
-import com.glodon.model.Book;
+import glodon.model.Book;
 import org.apache.commons.lang3.StringUtils;
 import org.elasticsearch.action.delete.DeleteResponse;
 import org.elasticsearch.action.get.GetResponse;

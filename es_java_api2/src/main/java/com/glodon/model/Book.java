@@ -6,14 +6,23 @@ package com.glodon.model;
  * @description
  */
 public class Book {
-    private Integer id;
+    private String id;
     private String name;
+    private String author;
 
-    public Integer getId() {
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 

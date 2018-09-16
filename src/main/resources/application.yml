@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: elasticsearch_data
-  data:
-    elasticsearch:
-      cluster-name: elasticsearch
-      cluster-nodes: 10.4.37.108:9300
