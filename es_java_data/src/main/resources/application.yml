@@ -1,0 +1,8 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300 # 配置IP及端口号
+      cluster-name: elasticsearch
+#      cluster-name: elasticsearch622 # 配置集群名，默认为elasticsearch，如果手动更改过，这里一定要指定
+#      repositories:
+#        enabled: true
