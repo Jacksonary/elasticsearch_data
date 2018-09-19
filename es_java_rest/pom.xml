@@ -17,6 +17,12 @@
         <artifactId>elasticsearch-rest-client</artifactId>
         <version>6.4.0</version>
     </dependency>
+    <!--引入json进行HTTP序列化-->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20160810</version>
+    </dependency>
 </dependencies>
 
 <build>
